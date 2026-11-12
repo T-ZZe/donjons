@@ -1,0 +1,20 @@
+# ============================================================================
+#  Donjon - configuration
+# ============================================================================
+prefix: "&4&l[&c&lDonjon&4&l] &7"
+world: donjon            # nom du monde superplat créé automatiquement
+border-size: 160         # taille de la bordure du monde (blocs)
+lock-night: true         # nuit permanente, pas de pluie
+allow-natural-mobs: false  # false : aucun mob naturel dans le donjon
+
+# Les trois portails (nom affiché, message au contact). Futurs accès aux donjons.
+portals:
+  gray:
+    name: "&7&lPortail des Cendres"
+    message: "&7Le portail des Cendres reste scellé... pour l'instant."
+  red:
+    name: "&c&lPortail Écarlate"
+    message: "&cLe portail Écarlate gronde derrière sa membrane... pas encore ouvert."
+  gold:
+    name: "&6&lPortail Doré"
+    message: "&6Le portail Doré brille d'un éclat insoutenable... il s'ouvrira bientôt."

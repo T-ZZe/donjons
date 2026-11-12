@@ -1,0 +1,20 @@
+name: Donjon
+version: ${project.version}
+main: fr.donjon.DonjonPlugin
+api-version: '26.3'
+description: Donjon avec salle des portails (gris, rouge, doré) dans un monde superplat.
+authors: [Donjon]
+
+commands:
+  donjon:
+    description: Se téléporter au donjon
+    usage: /donjon [quitter|rebuild|info]
+    aliases: [dj]
+
+permissions:
+  donjon.use:
+    description: Utiliser /donjon
+    default: true
+  donjon.admin:
+    description: Reconstruire le donjon, casser et poser des blocs dans le donjon
+    default: op
